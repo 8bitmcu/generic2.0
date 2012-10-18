@@ -1,0 +1,59 @@
+{
+  "Home": {
+    "nav" : "true",
+    "color": "yellow",
+    "hash" : "#home",
+    "html": "<article><img src='data/test.png' /><h1>My GREAT title</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac ultrices lacus. In nec fermentum metus. Suspendisse a libero velit. Praesent metus erat, adipiscing ac tempus at, adipiscing vel diam. Aliquam dapibus nisl enim, vitae porta erat. Etiam ac nisi felis, ut convallis leo. Curabitur quis mi elit, id scelerisque elit. Donec tortor neque, suscipit in rhoncus ac, tempor non justo. Sed porta vulputate mauris, eget blandit lectus consectetur eu. Integer fermentum, quam in gravida faucibus, nibh felis dictum dui, vitae egestas turpis libero vitae mi. Cras euismod dignissim dolor eu auctor. Maecenas elementum, est vitae feugiat elementum, turpis ipsum sollicitudin tortor, vel varius nulla velit a nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus muselerisque elit. Donec tortor neque, suscipit in rhoncus ac, tempor non justo. Sed porta vulputate mauris, eget blandit lectus consectetur eu. Integer fermentum, quam in gravida faucibus, nibh felis dictum dui, vitae egestas turpis libero vitae mi. Cras euismod dignissim dolor eu auctor. Maecenas elementum, est vitae feugiat elementum, turpis"
+  },
+
+  "Projects": { 
+    "nav" : "true",
+    "color": "red",
+    "hash" : "#projects",
+    "html": "test"
+  },
+
+  "About me": {
+    "nav" : "true",
+    "color": "blue",
+    "hash" : "#about-me",
+    "html": [
+				{
+					"view" : "Article",
+					"content" : {
+						"title" : "My GREAT title",
+						"image" : "data/test.png",
+						"content" : [{
+							"view" : "Code",
+							"content" : {
+								"syntax" : "C++",
+								"code" : "test()"
+							}
+						}]
+					}
+				}, 
+				{
+					"view" : "Article",
+					"content" : {
+						"title" : "My GREAT title",
+						"image" : "data/test.png",
+						"content" : "content"
+					}
+				}
+			]
+		},
+  "Other interests": {
+    "nav" : "true",
+    "color": "pink",
+    "hash" : "#other-interests",
+    "html": "test"
+  },
+
+  "Contact": {
+    "nav" : "true",
+    "color": "green",
+    "hash" : "#contact",
+    "html": "test"
+  }
+
+}

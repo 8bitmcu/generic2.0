@@ -1,0 +1,150 @@
+@font-face { font-family: Steelfish; src: url('template/steelfish.otf'); }
+@font-face { font-family: HN; src: url('template/HelveticaNeue-UltraLight.otf'); } /* for Windows */
+@font-face { font-family: HN-thin; src: url('template/HelveticaNeue-Thin.otf'); } /* for linux */
+
+*[hover="blue"]:hover { border-bottom: 1px solid #08C }
+*[hover="pink"]:hover { border-bottom: 1px solid #E07 }
+*[hover="yellow"]:hover { border-bottom: 1px solid #FC0 }
+*[hover="green"]:hover { border-bottom: 1px solid #7B3 }
+*[hover="red"]:hover { border-bottom: 1px solid #E41 }
+
+.selected[hover="blue"] { border-bottom: 2px solid #08C }
+.selected[hover="pink"] { border-bottom: 2px solid #E07 }
+.selected[hover="yellow"] { border-bottom: 2px solid #FC0 }
+.selected[hover="green"] { border-bottom: 2px solid #7B3 }
+.selected[hover="red"] { border-bottom: 2px solid #E41 }
+
+*[color="blue"] { color: #08C }
+*[color="pink"] { color: #E07 }
+*[color="yellow"] { color: #FC0 }
+*[color="green"] { color: #7B3 }
+*[color="red"] { color: #E41 }
+
+a[hover="blue"]:hover { border-width: 2px }
+a[hover="pink"]:hover { border-width: 2px }
+a[hover="yellow"]:hover { border-width: 2px }
+a[hover="green"]:hover { border-width: 2px }
+a[hover="red"]:hover { border-width: 2px }
+
+html {
+	background-image: url(template/furley_bg.png);
+	color: #333;
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+body {
+	width: 1024px;
+	margin: 3em auto;
+	box-shadow: 3px 3px 9px #ccc;
+	background-color: white;
+	border: 1px solid #bbb;
+	border-radius: 6px 6px 0 0;
+}
+
+nav {
+	font-family: HN, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 1em 0;
+	font-size: 2em;
+	font-weight: 100;
+	letter-spacing: 1px;
+	text-align: center;
+	color: white;
+	background: url(template/low_contrast_linen.png);
+	border-radius: 6px 6px 0 0;
+}
+  nav a {
+	  color: inherit;
+	  text-decoration: none;
+	  margin: 0.2em 0.6em;
+  }
+
+menu {
+	border-top: 1px solid #555;
+	padding: 5px;
+	margin: 0;
+	background: url(template/low_contrast_linen.png);
+	color: white;
+}
+  menu ul li {
+      display: inline;
+  	  margin: 0 1em;
+  	  cursor: pointer;
+  }
+
+section {
+	font-size: 0.9em;
+	margin: 3em;
+	border: inherit;
+	border-width: 0;
+}
+
+article {
+	border: inherit;
+	margin-bottom: 2em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	font-weight: 300;
+}
+  article h1 {
+	  font-size: 3em;
+	  font-family: Steelfish;
+	  font-weight: normal;
+	  border: inherit;
+	  border-width: 0 0 1px 0;
+	  text-transform: uppercase;
+  }
+  article img {
+	  float: right;
+	  margin: 0 0 1em 2em;
+	  border: 1px solid #777;
+	  box-shadow: 3px 3px 9px #ccc;
+  }
+  article p {
+	  text-align: justify;
+	  line-height: 1.2em;
+  }
+  article time {
+	  display: block;
+	  text-align: right;
+  }
+
+
+footer {
+	color: #777;
+	font-size: 0.7em;
+	text-align: center;
+	padding: 4em 0 1.5em 0;
+}
+
+
+
+
+
+
+code {
+	border: dotted #D14;
+	font-family: Monaco, 'Courier New';
+	font-size: 12px;
+	border-width: 1px 0 1px 0;
+	margin: 1em 0;
+	display: block;
+	color: black;
+	white-space: pre;
+	line-height: 1.1em;
+}
+  code span[str] { color: #D14 }
+  code span[num] { color: #099 }
+  code span[def] { color: #458; font-weight: bold }
+  code span[fn]  { color: #900 }
+  code span[com] { color: #998 }
+  .codeLines {
+  	  margin: 1.3em 10px 0 0;
+	  font-family: Monaco, 'Courier New';
+	  font-size: 12px;
+	  float: left;
+	  background-color: #eee;
+	  color: #aaa;
+	  width: 30px;
+	  text-align: right;
+	  line-height: 1.1em;
+  }
